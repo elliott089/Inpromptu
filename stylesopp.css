@@ -1,0 +1,93 @@
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9; /* Light grey */
+    color: #2f3e46; /* Dark grey text */
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #ffffff; /* White header to match logo */
+    padding: 1.5rem 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2f3e46; /* Dark grey */
+}
+
+.logo span {
+    color: #61a5c2; /* Light blue */
+}
+
+/* Vertical Navigation */
+.vertical-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.vertical-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-nav li {
+    margin-bottom: 1rem;
+}
+
+.vertical-nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2f3e46; /* Dark grey */
+    background: #ffffff; /* White background for buttons */
+    padding: 1rem 2rem;
+    border: 2px solid #61a5c2; /* Light blue border */
+    border-radius: 8px; /* Rounded edges */
+    transition: all 0.3s ease;
+}
+
+.vertical-nav a:hover {
+    background: #61a5c2; /* Light blue background on hover */
+    color: #ffffff; /* White text on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Hover shadow */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2f3e46; /* Dark grey */
+    color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
