@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/elliott089/Inpromptu
+    - /bin/cp -r * $DEPLOYPATH # Copy all files recursively to the deployment path
