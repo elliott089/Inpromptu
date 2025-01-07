@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/elliott089/Inpromptu/
+    - export DEPLOYPATH=/home2/elliott089/Inpromptu/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
